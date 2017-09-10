@@ -1,0 +1,12 @@
+[init]
+  templatedir = /Library/Application Support/Sublime Text 3/Packages/User
+[user]
+  name = growthcode
+  email = growthcode@gmail.com
+[core]
+  editor = sublime -n -w
+  excludesfile = /Users/hetheberg/.gitignore
+[commit]
+  template = .gitmessage
+[credential]
+  helper = osxkeychain
