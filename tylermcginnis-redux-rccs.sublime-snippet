@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+import React from 'react'
+const ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} = React.createClass({
+  render () {
+    return (
+      ${0:<div></div>}
+    )
+  },
+})
+export default ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}}
+]]></content>
+    <tabTrigger>rccs</tabTrigger>
+    <scope>source.js</scope>
+    <description>React Component - Statefull</description>
+</snippet>
