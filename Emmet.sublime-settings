@@ -1,0 +1,7 @@
+{
+  "syntaxProfiles": {
+    "jsx": {
+      "attr_quotes": "single"
+    }
+  }
+}
