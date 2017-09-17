@@ -17,11 +17,12 @@
 // 1/2 Up:    “slate_keys2  arrow_up”
 // 1/2 Down:  “slate_keys2  arrow_down”
 
-// 2/3 Left:   “slate_key2 ,”
-// 2/3 Right:  “slate_key2 .”
+// 2/3 Left:   “slate_key2 <”
+// 2/3 Right:  “slate_key2 >”
 
-// 1/3 Left:   “slate_key1 ,”
-// 1/3 Right:  “slate_key1 .”
+// 1/3 Left:   “slate_key1 <”
+// 1/3 middle:  “slate_key1 l”
+// 1/3 Right:  “slate_key1 >”
 
 // 1/4 Left:   “slate_key1 shift arrow_left”
 // 1/4 Right:  “slate_key1 shift arrow_right”
@@ -64,8 +65,8 @@ slate.bindAll({
 
     // # 1/3 screen resize
     ',': 'push left bar-resize:screenSizeX/3',
-    '.': 'move screenOriginX+screenSizeX/3;screenOriginY screenSizeX/3;screenSizeY',
-    '/': 'push right bar-resize:screenSizeX/3',
+    'l': 'move screenOriginX+screenSizeX/3;screenOriginY screenSizeX/3;screenSizeY',
+    '.': 'push right bar-resize:screenSizeX/3',
 
     // direct focus
     c: $.focus('Google Chrome'),
@@ -87,7 +88,7 @@ slate.bindAll({
 
     // # 2/3 screen resize
     ',': 'push left   bar-resize:screenSizeX/3*2',
-    '/': 'push right  bar-resize:screenSizeX/3*2',
+    '.': 'push right  bar-resize:screenSizeX/3*2',
 
 
     // corners
