@@ -14,5 +14,5 @@ export default ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}}
 ]]></content>
     <tabTrigger>rccs</tabTrigger>
     <scope>source.js</scope>
-    <description>React Component - Statefull</description>
+    <description>React: Statefull Component</description>
 </snippet>

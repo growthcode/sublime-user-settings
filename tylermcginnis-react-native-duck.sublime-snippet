@@ -11,5 +11,5 @@ export default function ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} (state = ini
 ]]></content>
     <tabTrigger>duck</tabTrigger>
     <scope>source.js</scope>
-    <description>Redux Module skeleton</description>
+    <description>Redux: Module skeleton</description>
 </snippet>

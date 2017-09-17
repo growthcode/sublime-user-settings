@@ -17,5 +17,5 @@ export default connect(
 ]]></content>
     <tabTrigger>rc</tabTrigger>
     <scope>source.js</scope>
-    <description>Redux Connect Skeleton</description>
+    <description>Redux: Connect Skeleton</description>
 </snippet>

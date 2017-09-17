@@ -20,5 +20,5 @@ export default class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends Compone
 ]]></content>
     <tabTrigger>rnccs</tabTrigger>
     <scope>source.js</scope>
-    <description>React Native Statefull Component Skeleton</description>
+    <description>React Native: Statefull Component</description>
 </snippet>

@@ -1,6 +1,7 @@
 <snippet>
     <content><![CDATA[
 import React, { PropTypes } from 'react'
+
 export default function ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} (props) {
   return (
     ${0:<div></div>}
@@ -9,5 +10,5 @@ export default function ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} (props) {
 ]]></content>
     <tabTrigger>rccf</tabTrigger>
     <scope>source.js</scope>
-    <description>React Stateless Functional Component Skeleton</description>
+    <description>React: Stateless Functional Component</description>
 </snippet>
