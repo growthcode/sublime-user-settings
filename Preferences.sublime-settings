@@ -13,10 +13,12 @@
 		".git",
 		".hg",
 		"CVS",
-		"node_modules",
-		"*/tmp/cache/*"
+    "node_modules",
+		"*/tmp/cache/*",
+		"*/tmp/miniprofiler/*",
+		"*/public/uploads/tmp/*",
 	],
-	"font_size": 12.0,
+	"font_size": 13,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
