@@ -9,11 +9,11 @@
 	"fade_fold_buttons": false,
 	"folder_exclude_patterns":
 	[
-		"node_modules",
 		".svn",
 		".git",
 		".hg",
 		"CVS",
+		"node_modules",
 		"*/tmp/cache/*"
 	],
 	"font_size": 12.0,

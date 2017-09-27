@@ -29,6 +29,7 @@
 		"SublimeLinter",
 		"SublimeLinter-jshint",
 		"SublimeLinter-jsxhint",
-		"View In Browser"
+		"View In Browser",
+		"Vue Syntax Highlight"
 	]
 }
