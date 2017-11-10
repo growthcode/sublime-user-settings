@@ -1,0 +1,34 @@
+# alias zshconfig='subl ~/.zshrc'
+# alias ohmyzsh='subl ~/.oh-my-zsh'
+alias ngrok="~/bin/ngrok"
+alias populate='rake db:schema:load && rake db:seed'
+alias gaacam='git commit -a --amend --no-edit'
+alias rdmrm='rake db:migrate; rake db:rollback; rake db:migrate'
+alias ggpr='git pr'
+alias k9='echo "Killer, KILL!\n BARK-BARK~🐕" && kill -9' # ctrl cmd space in terminal will give you icon list
+alias psar='ps aux | ag rails'
+alias shipit='echo "       _~\n    _~ )_)_~\n    )_))_))_)\n    _!__!__!_\n    \______t/\n  ~~~~~~~~~~~~~" && git push origin $(git rev-parse --abbrev-ref HEAD 2> /dev/null)'
+alias cdvipractice='cd ~/Google\ Drive/scripts\ and\ shortcuts/practicalvim'
+alias subl='sublime'
+alias lsd='ls -a1 -F | grep --color /'
+alias reloadzsh='source ~/.zshrc'
+
+alias cdf='cd ~/sites/flock'
+alias cds='cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User'
+alias cdpvim='cd ~/Google\ Drive/scripts\ and\ shortcuts/practicalvim'
+alias rcf='cd ~/sites/flock && rails c'
+alias broutes='rake broutes'
+alias rag='rake broutes | ag'
+
+# file names silver searcher
+searchfunction() {
+  echo $(ag * -g --color-path --smart-case --hidden "*$1[^/]*$")
+  #echo "================ HIDDEN FILES: ================"
+  #echo $(ag --smart-case --hidden -l $1)
+}
+alias search=searchfunction
+
+_rgscaffold() {
+  rails g scaffold "$1" content:string --no-assets --no-fixture --no-test --no-helper --no-test-framework "${@:2}"
+}
+alias rgscaffold=_rgscaffold
