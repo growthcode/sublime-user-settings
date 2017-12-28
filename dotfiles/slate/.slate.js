@@ -1,3 +1,7 @@
+// https://apple.stackexchange.com/questions/126351/remember-window-sizes-and-placement-when-unplugging-and-replugging-second-monito
+// http://thume.ca/howto/2012/11/19/using-slate/
+// Try the above to get work layout how you want it
+
 // ####=> slate configuration file
 // #### reference this file from root directory like this:
 //=> S.src('~/Library/Application Support/Sublime Text 3/Packages/User/dotfiles/slate/.slate.js');

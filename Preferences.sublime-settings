@@ -22,6 +22,9 @@
 		"*/tmp/miniprofiler/*",
 		"*/flock/tmp/*",
 		"*/public/uploads/tmp/*",
+		"*/public/packs/*",
+		".woff2",
+		".woff",
 		"*/log"
 	],
 	"font_size": 12,
