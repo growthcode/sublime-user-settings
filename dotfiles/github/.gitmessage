@@ -4,37 +4,49 @@
 # Why was this change made?                                            |
 
 
-# Add references, like: Pivotal Task URLs, tickets,  Github Issue URL  |
+# Add references, like: JIRA URLs, tickets, Github Issue URL
 
 
 
 
-
-
-
-# First word must be one of these 5 "types:"
+# Commit Message:
+# Begin each message with JIRA reference (example "EN-1234")
 #
-# 5 allowed "types:" #=> (feat/hotfix/bug/refact/tidy)
 #
-# feat: (feature change)
-# hotfix: (quick fix of bug on production, minimal change)
-# bug: (permanent fix of bug)
-# refact: (Refactoring - changing current code)
-# tidy: (formatting only, spelling, grammar, etc; no code change)
+# --- Title/Summary 50 Char Limit -------------- |
 #
 #
 # Examples:
-# --- Title/Summary 50 Char Limit -------------- |
-# feat: Hide first 6 chars of SSN
-# feat: Add flash after user register to get demo
-# hotfix: Change csv FSA upload election field
-# hotfix: Change reply_to task notification email
-# bug: Set new task email reply_to on manager
-# bug: Save csv FSA election to correct attribute
-# refact: Remove unused methods from User
-# refact: Remove leftover 'binding.pry'
-# tidy: Fix spelling on broker landing page
-# tidy: Changes tabs into spaces on Sass Files
+# EN-1234 Hide first 6 chars of SSN
+# EN-1234 Add flash after user registers
+# EN-1234 Change CSV FSA upload election field
+# EN-1234 Change reply_to task notification email
+# EN-1234 Set new task email reply_to on manager
+# EN-1234 Save CSV FSA election to correct attr
+# EN-1234 Remove unused methods from User
+# EN-1234 Remove leftover 'binding.pry'
+# EN-1234 Fix spelling on broker landing page
+# EN-1234 Changes tabs into spaces on Sass Files
+#
+#
 #
 # Body/Comments to 72 Char Limit ------------------------------------- |
 #
+#
+#
+#
+#
+# Branch Naming:
+# <story type>/<ticket number>-<description>
+# Example:
+# $ git checkout -b feature/EN-1234-add-event-search-filters release/2.0.34
+# switch to new branch "feature/EN-1234-add-event-search-filters"
+#
+#
+#
+#
+#
+# Resources for writing good commit messages:
+# =>  https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message
+# =>  https://chris.beams.io/posts/git-commit/
+# =>  https://github.com/erlang/otp/wiki/Writing-good-commit-messages
