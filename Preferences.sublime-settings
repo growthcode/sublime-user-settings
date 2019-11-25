@@ -1,7 +1,9 @@
 {
 	"added_words":
 	[
-		"params"
+		"params",
+		"unsubscribed",
+		"timeframe"
 	],
 	"bold_folder_labels": true,
 	"caret_style": "phase",
@@ -11,23 +13,35 @@
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": false,
+	"file_exclude_patterns":
+	[
+		"assets/javascripts/library/*",
+		"*.git",
+		"*tmp/data/meta_request*",
+		"*.hg",
+		"*.svn",
+		"*.woff",
+		"*.woff2",
+		"*dump.rdb",
+		"public/assets/*-*",
+		"*/assets/javascripts/i18n/*.js"
+	],
 	"folder_exclude_patterns":
 	[
-		".svn",
+		"*.unison.tmp",
 		".git",
-		".hg",
-		"CVS",
-		"node_modules",
+		"*.git",
+		"*tmp/data/meta_request*",
+		"*/log",
+		"*/dump.rdb",
+		"*/public/packs/*",
+		"*/public/uploads/tmp/*",
 		"*/tmp/cache/*",
 		"*/tmp/miniprofiler/*",
-		"*/flock/tmp/*",
-		"*/public/uploads/tmp/*",
-		"*/public/packs/*",
-		".woff2",
-		".woff",
-		"*/log"
+		"CVS",
+		"node_modules"
 	],
-	"font_size": 12,
+	"font_size": 13,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -50,7 +64,7 @@
 	"scroll_past_end": true,
 	"spell_check": true,
 	"tab_size": 2,
-	"theme": "Oceanic Next.sublime-theme",
+	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true

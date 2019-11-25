@@ -1,0 +1,12 @@
+<!-- When the gems "pry" and "bye-bug" are both used, the line after binding.pry gets ran. This snippet just makes the next line an awesome print method preventing any meaningful code to be run (like the "end" of a method"). -->
+<snippet>
+  <content><![CDATA[
+binding.pry
+ap 'ap' ${1}
+]]></content>
+  <tabTrigger>bindap</tabTrigger>
+  <scope>source.ruby</scope>
+  <description>binding.pry; ap 'ap'</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>
