@@ -8,7 +8,7 @@ export default function ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} (props) {
   )
 }
 ]]></content>
-    <tabTrigger>rccf</tabTrigger>
+    <tabTrigger>trccf</tabTrigger>
     <scope>source.js</scope>
     <description>React: Stateless Functional Component</description>
 </snippet>

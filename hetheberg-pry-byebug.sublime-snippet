@@ -1,0 +1,12 @@
+<!-- https://www.freecodecamp.org/news/a-guide-to-preserving-your-wrists-with-sublime-text-snippets-7541662a53f2/ -->
+
+<snippet>
+  <content><![CDATA[
+binding.pry
+puts 'binding now...'
+]]></content>
+  <tabTrigger>bind</tabTrigger>
+  <scope>source.ruby</scope>
+  <scope> source: ruby </scope>
+  <description>binding.pry ; puts 'binding now...'</description>
+</snippet>

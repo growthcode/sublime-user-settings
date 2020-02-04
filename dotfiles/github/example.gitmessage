@@ -1,0 +1,52 @@
+# If applied, this commit will...                |
+
+
+# Why was this change made?                                            |
+
+
+# Add references, like: JIRA URLs, tickets, Github Issue URL
+
+
+
+
+# Commit Message:
+# Begin each message with JIRA reference (example "EN-1234")
+#
+#
+# --- Title/Summary 50 Char Limit -------------- |
+#
+#
+# Examples:
+# EN-1234 Hide first 6 chars of SSN
+# EN-1234 Add flash after user registers
+# EN-1234 Change CSV FSA upload election field
+# EN-1234 Change reply_to task notification email
+# EN-1234 Set new task email reply_to on manager
+# EN-1234 Save CSV FSA election to correct attr
+# EN-1234 Remove unused methods from User
+# EN-1234 Remove leftover 'binding.pry'
+# EN-1234 Fix spelling on broker landing page
+# EN-1234 Changes tabs into spaces on Sass Files
+#
+#
+#
+# Body/Comments to 72 Char Limit ------------------------------------- |
+#
+#
+#
+#
+#
+# Branch Naming:
+# <story type>/<ticket number>-<description>
+# Example:
+# $ git checkout -b feature/EN-1234-add-event-search-filters release/2.0.34
+# switch to new branch "feature/EN-1234-add-event-search-filters"
+#
+#
+#
+#
+#
+# Resources for writing good commit messages:
+# =>  https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message
+# =>  https://chris.beams.io/posts/git-commit/
+# =>  https://github.com/erlang/otp/wiki/Writing-good-commit-messages

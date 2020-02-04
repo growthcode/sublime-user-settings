@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
 })
 
 ]]></content>
-    <tabTrigger>rnccf</tabTrigger>
+    <tabTrigger>trnccf</tabTrigger>
     <scope>source.js</scope>
     <description>React Native: Stateless Functional Component</description>
 </snippet>
