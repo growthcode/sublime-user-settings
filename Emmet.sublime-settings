@@ -1,7 +1,15 @@
 {
   "syntaxProfiles": {
+    "html": {
+      "inline_break": 1
+    },
+    "js": {
+      "attr_quotes": "single",
+      "inline_break": 1,
+    },
     "jsx": {
-      "attr_quotes": "single"
-    }
-  }
+      "attr_quotes": "single",
+      "inline_break": 1,
+    },
+  },
 }

@@ -7,3 +7,6 @@ Package Control.ca-certs/
 .DS_Store
 Package Control.merged-ca-bundle
 oscrypto-ca-bundle.crt
+Package Control.merged-ca-bundle
+JavaScript Enhancements.sublime-settings
+oscrypto-ca-bundle.crt
