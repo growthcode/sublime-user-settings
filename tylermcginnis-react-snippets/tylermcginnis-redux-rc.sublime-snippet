@@ -15,7 +15,7 @@ export default connect(
   mapDispatchToProps
 )()
 ]]></content>
-    <tabTrigger>trc</tabTrigger>
+    <!-- <tabTrigger>trc</tabTrigger> -->
     <scope>source.js</scope>
     <description>Redux: Connect Skeleton</description>
 </snippet>
