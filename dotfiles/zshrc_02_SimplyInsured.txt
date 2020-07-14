@@ -1,0 +1,204 @@
+# Path to your oh-my-zsh installation.
+export ZSH=/Users/hetheberg/.oh-my-zsh
+# Set name of the theme to load.
+# Look in ~/.oh-my-zsh/themes/
+# Optionally, if you set this to "random", it'll load a random theme each
+# time that oh-my-zsh is loaded.
+# ZSH_THEME="robbyrussell" # original theme
+ZSH_THEME="pygmalion"
+
+# Uncomment the following line to use case-sensitive completion.
+# CASE_SENSITIVE="true"
+
+# Uncomment the following line to use hyphen-insensitive completion. Case
+# sensitive completion must be off. _ and - will be interchangeable.
+# HYPHEN_INSENSITIVE="true"
+
+# Uncomment the following line to disable bi-weekly auto-update checks.
+# DISABLE_AUTO_UPDATE="true"
+
+# Uncomment the following line to change how often to auto-update (in days).
+# export UPDATE_ZSH_DAYS=13
+
+# Uncomment the following line to disable colors in ls.
+# DISABLE_LS_COLORS="true"
+
+# Uncomment the following line to disable auto-setting terminal title.
+# DISABLE_AUTO_TITLE="true"
+
+# Uncomment the following line to enable command auto-correction.
+# ENABLE_CORRECTION="true"
+
+# Uncomment the following line to display red dots whilst waiting for completion.
+# COMPLETION_WAITING_DOTS="true"
+
+# Uncomment the following line if you want to disable marking untracked files
+# under VCS as dirty. This makes repository status check for large repositories
+# much, much faster.
+# DISABLE_UNTRACKED_FILES_DIRTY="true"
+
+# Uncomment the following line if you want to change the command execution time
+# stamp shown in the history command output.
+# The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
+# HIST_STAMPS="mm/dd/yyyy"
+
+# Would you like to use another custom folder than $ZSH/custom?
+# ZSH_CUSTOM=/path/to/new-custom-folder
+
+# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(z git heroku bundler colored-man-pages colorize github jira vagrant virtualenv pip brew osx zsh-syntax-highlighting rails ruby)
+
+# User configuration
+export PATH="/Users/hetheberg/.rbenv/shims:$PYENV_ROOT/bin:$PATH"
+
+# # Prism version 5.6 mysql
+# export PATH="/usr/local/Cellar/mysql@5.6/5.6.42/bin:$PATH"
+#export PATH="$PATH:/opt/yarn-[version]/bin"
+export PATH="$PATH:$HOME/bin"
+export PATH="/usr/local/opt/openssl/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
+
+# # SimplyInsured for "Phabricator"
+# # git clone https://github.com/phacility/libphutil.git
+# # git clone https://github.com/phacility/arcanist.git
+export PATH="$PATH:$HOME/bin/arcanist/bin/"
+
+# Node version manager
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+# # For compilers to find mysql@5.6 you may need to set:
+# # export LDFLAGS="-L/usr/local/opt/mysql@5.6/lib"
+# # export CPPFLAGS="-I/usr/local/opt/mysql@5.6/include"
+#
+# To have launchd start mysql@5.6 now and restart at login
+# brew services start mysql@5.6
+# brew services restart mysql@5.6
+# Or, if you don't want/need a background service you can just run:
+# #  /usr/local/opt/mysql@5.6/bin/mysql.server start
+#
+# # mysql-client is keg-only, which means it was not symlinked into /usr/local, because conflicts with mysql.
+# # If you need to have mysql-client first in your PATH run:
+# export PATH="/usr/local/opt/mysql-client/bin:$PATH"
+# # For compilers to find mysql-client you may need to set:
+# export LDFLAGS="-L/usr/local/opt/mysql-client/lib"
+# export CPPFLAGS="-I/usr/local/opt/mysql-client/include"
+# # For pkg-config to find mysql-client you may need to set:
+# export PKG_CONFIG_PATH="/usr/local/opt/mysql-client/lib/pkgconfig"
+
+
+# Did not work in SIMPLYINSURED
+# # # # Android Studio Related Path Variables
+# # # export ANDROID_HOME="$HOME/Library/Android/sdk"
+# # # export PATH="$PATH:$ANDROID_HOME/tools"
+# # # export PATH="$PATH:$ANDROID_HOME/platform-tools"
+# # # export EDITOR="subl -w"
+
+source $ZSH/oh-my-zsh.sh
+
+# ssh
+# export SSH_KEY_PATH="~/.ssh/dsa_id"
+
+# Set personal aliases, overriding those provided by oh-my-zsh libs,
+# plugins, and themes. Aliases can be placed here, though oh-my-zsh
+# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# For a full list of active aliases, run `alias`.
+#
+
+# # # sublime alias
+# # https://stackoverflow.com/a/31771252
+# # ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
+alias subl='sublime'
+alias pwdh='print -rD $PWD'
+alias populate='rake db:schema:load && rake db:seed'
+alias gaacam='git commit -a --amend --no-edit'
+alias rdmrm='rake db:migrate; rake db:rollback; rake db:migrate'
+alias ggpr='git-pr'
+alias k9='echo "Killer, KILL!\n BARK-BARK~🐕" && kill -9' # ctrl cmd space in terminal will give you icon list
+alias psar='ps aux | ag rails'
+alias shipit='echo "       _~\n    _~ )_)_~\n    )_))_))_)\n    _!__!__!_\n    \______t/\n  ~~~~~~~~~~~~~" && git push origin $(git rev-parse --abbrev-ref HEAD 2> /dev/null)'
+alias cdvipractice='cd ~/Google\ Drive/scripts\ and\ shortcuts/practicalvim'
+alias lsd='ls -a1 -F | grep --color /'
+alias zshreload="source ~/.zshrc"
+alias reloadzsh="zshreload"
+alias aag="alias | ag"
+alias rra="rake routes | ag"
+alias zshconfig='subl ~/.zshrc'
+
+# alias cdf='cd ~/sites/flock'
+alias cds='cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/'
+# alias cdpvim='cd ~/Google\ Drive/scripts\ and\ shortcuts/practicalvim'
+
+
+alias cdsi='cd ~/sites/SimplyInsured/site'
+alias rssi='DEBUG_LOGGING=true PORT=3000 bundle exec rails server --port=3000'
+alias wpsi='PORT=3100 ./node_modules/.bin/webpack-dev-server --config config/webpack.config.js --port=3100'
+alias sbsi='PORT=3000 ./node_modules/.bin/start-storybook -p 3200'
+_fs() {
+  cp ./Procfile.hethe ./Procfile
+  # foreman start
+  osascript \
+    -e 'tell application "iTerm2" to tell current window to set newWindow to (create tab with default profile)'\
+    -e "tell application \"iTerm2\" to tell current session of newWindow to write text \"foreman start\""
+    # -e "tell application \"iTerm2\" to tell current session of newWindow to write text \"${@}\""
+  sleep 3s
+  git checkout Procfile
+  exit
+}
+alias fs='_fs'
+
+
+# file names silver searcher
+# searchfunction() {
+#   echo $(ag -g $1 --smart-case --hidden)
+#   echo $(ag --smart-case --hidden -l $1)
+# }
+alias search=searchfunction
+
+_rgscaffold() {
+  rails g scaffold "$1" "${@:2}" --no-assets --no-helper #--no-fixture --no-test --no-test-framework
+}
+alias rgscaffold=_rgscaffold
+alias arspec='ORM=ar rspec'
+alias acucumber='ORM=ar cucumber'
+alias arrs='ORM=ar rs'
+alias arrc='ORM=ar rc'
+
+alias test-dbug="node --inspect node_modules/.bin/jest --runInBand" #than file location
+# # ======================= start watch_and_run =====================
+# # Watch and run rspec tests
+# # How to use it?
+# #
+# # Run spec for user_spec.rb when file changed.
+# #   $ spec spec/models/user_spec.rb
+# #
+# # Run spec for user_spec.rb:80 (only spec in line 80) when file changed.
+# #   $ spec spec/models/user_spec.rb 80
+# #
+# # Use spec if you want to run spring rspec to speed up. For instance:
+# #   $ spec spec/models/user_spec.rb
+
+# function watch_and_run {
+#   prefix=$1
+#   file=$2
+#   line=$3
+#   if [ -z "$line" ]; then
+#     nodemon -x "$prefix $file" -w "$file"
+#   else
+#     nodemon -x "$prefix $file:$line" -w "$file"
+#   fi
+# }
+# # l stands for "listen"
+# alias lspec='watch_and_run "rspec"'
+# # ======================= end watch_and_run =====================
+
+_tab_name(){
+  DISABLE_AUTO_TITLE="true"
+  print -Pn "\e]1;$1\a"
+}
+alias tab_name=_tab_name
