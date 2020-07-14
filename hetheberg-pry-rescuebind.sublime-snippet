@@ -2,12 +2,13 @@
 
 <snippet>
   <content><![CDATA[
+rescue => e $1
 binding.pry unless @skip
 puts 'binding now...'
-raise e if @raise
+raise e unless @raise
 ]]></content>
-  <tabTrigger>bind</tabTrigger>
+  <tabTrigger>rescbind</tabTrigger>
   <scope>source.ruby</scope>
   <scope> source: ruby </scope>
-  <description>binding.pry ; puts 'binding now...'</description>
+  <description>rescue...binding.pry</description>
 </snippet>

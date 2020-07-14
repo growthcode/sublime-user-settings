@@ -4,7 +4,16 @@
 		"params",
 		"Pseudocode",
 		"pseudocode",
-		"Rubberduck"
+		"Rubberduck",
+		"interactors",
+		"autoupgrade",
+		"mysql2",
+		"config",
+		"yml",
+		"mysql",
+		"Ardm",
+		"Frontend",
+		"interactor"
 	],
 	"binary_file_patterns":
 	[
@@ -35,6 +44,7 @@
 	"color_scheme": "Packages/User/SublimeLinter/Oceanic Next (SL).tmTheme",
 	"default_line_ending": "unix",
 	"dictionary": "Packages/Language - English/en_US.dic",
+	"drag_text": false,
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": false,
@@ -60,7 +70,12 @@
 		"*.psd",
 		"*.db",
 		"*.sublime-workspace",
-		"*.sql.gz"
+		"*.sql.gz",
+		"*.test.js.snap",
+		"*/tmp/data/meta_request/*.json",
+		"*/tmp/profiles/*.dat",
+		"*/tmp/profiles/*.stack.html",
+		"*/tmp/profiles/*.flat.txt"
 	],
 	"folder_exclude_patterns":
 	[
@@ -78,12 +93,16 @@
 		".woff",
 		"*/log"
 	],
-	"font_size": 12,
+	"font_size": 13,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Vintage"
+	],
+	"ignored_words":
+	[
+		"cancelled"
 	],
 	"indent_guide_options":
 	[
