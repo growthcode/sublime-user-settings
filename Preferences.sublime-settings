@@ -37,7 +37,8 @@
 		"*/tmp/coverage*",
 		"*/app/assets/json/data.json",
 		"*/.rubocop_todo.yml",
-		"*/assets/fonts/*"
+		"*/assets/fonts/*",
+		"*/miniprofiler/*"
 	],
 	"bold_folder_labels": true,
 	"caret_style": "phase",
