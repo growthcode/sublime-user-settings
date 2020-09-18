@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+if (window.s !== true) { debugger };
+window.s = true
+]]></content>
+  <tabTrigger>debugger</tabTrigger>
+  <scope>source.js</scope>
+  <description>debugger stopping when looping</description>
+</snippet>

@@ -1,15 +1,21 @@
 {
-  "syntaxProfiles": {
-    "html": {
-      "inline_break": 1
-    },
-    "js": {
-      "attr_quotes": "single",
-      "inline_break": 1,
-    },
-    "jsx": {
-      "attr_quotes": "single",
-      "inline_break": 1,
-    },
-  },
+	"syntaxProfiles":
+	{
+		"html":
+		{
+			"inline_break": 1
+		},
+		"js":
+		{
+			"attr_quotes": "single",
+			"inline_break": 1
+		},
+		"jsx":
+		{
+			"attr_quotes": "single",
+			"inline_break": 1
+		}
+	},
+	"telemetry": false,
+	"uid": "42972d62-9602-4d85-8079-82cf733976f2"
 }
