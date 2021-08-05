@@ -5,9 +5,9 @@
 rescue => e $1
 binding.pry unless \$skip
 puts 'binding now...'
-raise e unless \$raise
+raise e unless \$next
 ]]></content>
-  <tabTrigger>rescbind</tabTrigger>
+  <tabTrigger>resc</tabTrigger>
   <scope>source.ruby</scope>
   <scope> source: ruby </scope>
   <description>rescue...binding.pry</description>
