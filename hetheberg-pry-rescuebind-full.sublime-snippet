@@ -7,10 +7,10 @@ $SELECTION
 rescue => e
   binding.pry unless \$skip
   puts 'binding now...'
-  raise e unless \$raise
+  raise e unless \$next
 end
 ]]></content>
-  <tabTrigger>begbind</tabTrigger>
+  <tabTrigger>beg</tabTrigger>
   <scope>source.ruby</scope>
   <scope> source: ruby </scope>
   <description>begbind rescue...binding.pry</description>
