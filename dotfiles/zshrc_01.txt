@@ -138,3 +138,20 @@ _rgscaffold() {
 }
 alias rgscaffold=_rgscaffold
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Brew Installs:
+# brew install qpdf
+# => qpdf --decrypt --replace-input 'Balance 250 Platinum.pdf'

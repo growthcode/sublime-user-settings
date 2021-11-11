@@ -4,7 +4,7 @@
   <content><![CDATA[
 binding.pry unless \$skip
 puts 'binding now...'
-raise e unless \$next
+raise e if \$k9
 ]]></content>
   <tabTrigger>bin</tabTrigger>
   <scope>source.ruby</scope>
