@@ -3,10 +3,6 @@
 	"in_process_packages":
 	[
 	],
-	"install_prereleases":
-	[
-		"Babel"
-	],
 	"installed_packages":
 	[
 		"A File Icon",
@@ -18,29 +14,15 @@
 		"EJS 2",
 		"Emmet",
 		"ERB Snippets",
-		"ES6-Toolkit",
-		"FindKeyConflicts",
 		"Git",
 		"GitGutter",
-		"GNU Octave Completions",
-		"Handlebars",
 		"HTML5",
-		"JavaScript Snippets",
-		"jQuery",
-		"LESS",
-		"Logos Syntax Highlighting",
-		"Matlab Completions",
-		"Package Control",
+		"JavaScript & NodeJS Snippets",
+		"Pretty JSON",
 		"Print to HTML",
-		"React ES6 Snippets",
-		"Ruby Slim",
 		"Sass",
 		"SideBarEnhancements",
-		"SublimeLinter",
-		"SublimeLinter-jshint",
-		"SublimeLinter-jsxhint",
 		"View In Browser",
-		"Vuejs Complete Package",
-		"Vuejs Snippets Airbnb"
-	]
+		"Vue Syntax Highlight",
+	],
 }
