@@ -6,7 +6,6 @@
 	"installed_packages":
 	[
 		"A File Icon",
-		"All Autocomplete",
 		"Babel",
 		"Babel Snippets",
 		"BracketHighlighter",
@@ -18,6 +17,7 @@
 		"GitGutter",
 		"HTML5",
 		"JavaScript & NodeJS Snippets",
+		"Package Control",
 		"Pretty JSON",
 		"Print to HTML",
 		"Sass",
