@@ -4,7 +4,7 @@
 
 // ####=> slate configuration file
 // #### reference this file from root directory like this:
-//=> S.src('~/Library/Application Support/Sublime Text 3/Packages/User/dotfiles/slate/.slate.js');
+//=> S.src('~/Library/Application Support/Sublime Text/Packages/User/dotfiles/slate/.slate.js');
 
 // Useful links:
 // * https://github.com/lunixbochs/reslate
@@ -47,7 +47,7 @@
 
 // ——--——Shortcuts Cheat Sheet End—--———
 
-S.src('~/Library/Application Support/Sublime Text 3/Packages/User/dotfiles/slate/.reslate.js');
+S.src('~/Library/Application Support/Sublime Text/Packages/User/dotfiles/slate/.reslate.js');
 
 // enable to see debug messages in Console.app
 // $.debug = true;
