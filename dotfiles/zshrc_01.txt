@@ -155,3 +155,6 @@ alias rgscaffold=_rgscaffold
 # Brew Installs:
 # brew install qpdf
 # => qpdf --decrypt --replace-input 'Balance 250 Platinum.pdf'
+
+# Getting file off server
+#scp -i /Users/hetheberg/.ssh/id_rsa ubuntu@xxxxxxxx:/home/ubuntu/site/Procfile /Users/hetheberg/Desktop/Procfile
