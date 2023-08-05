@@ -6,6 +6,8 @@
 // #### reference this file from root directory like this:
 //=> S.src('~/Library/Application Support/Sublime Text 3/Packages/User/dotfiles/slate/.slate.js');
 
+// DOWNLOAD: https://github.com/jigish/slate/blob/master/build/Release/Slate.dmg
+
 // Useful links:
 // * https://github.com/lunixbochs/reslate
 // * https://github.com/jigish/slate/wiki/Operations
